@@ -1,0 +1,21 @@
+{
+  "name": "anime_bot",
+  "version": "1.0.0",
+  "description": "Twitter bot that generates anime titles and plots.",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "anime",
+    "weeb",
+    "bullshit"
+  ],
+  "author": "Joe Panuncialman",
+  "license": "ISC",
+  "dependencies": {
+    "tracery-grammar": "^2.7.3",
+    "twit": "^2.2.5"
+  },
+  "repository": "https://github.com/galaxykate/tracery.git"
+}
