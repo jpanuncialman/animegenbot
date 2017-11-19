@@ -161,13 +161,14 @@ function followed(eventMsg) {
 	console.log("Ya got followed.")
 	var name = eventMsg.source.name;
 	var screenName = eventMsg.source.screen_name;
-	followedTweetBack('Thanks for the follow @' + screenName + '. Enjoy your garbage anime.');
+	followedTweetBack('Thanks for the follow @' + screenName + '. Enjoy your garbage anime, ya dingus.');
 }
 
 function followedTweetBack(msg) {
 	T.post('statuses/update', { status: msg }, function(err, data, response) {
 	  if(err) {
 	  	console.log("Oh no, an error!");
+	  	console.log(err, data, response);
 	  } else {
 	  	console.log("It worked!");
 	  }
