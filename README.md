@@ -11,7 +11,7 @@ https://github.com/jpanuncialman/animegenbot
 
 ## Description
 
-The AnimeGenBot Twitter Bot generates anime titles and descriptions, commenting on the similar machine-like ouput of anime every season and the surrounding consumerist culture. Utilizing a Markov chain algorithm, the bot takes titles and descriptions fed through a scraper (https://github.com/jpanuncialman/mal-scraper) and constructs new ones
+The AnimeGenBot Twitter Bot generates anime titles and descriptions, commenting on the similar machine-like ouput of anime every season and the surrounding consumerist culture. Utilizing a Markov chain algorithm, the bot takes titles and descriptions fed through a scraper (https://github.com/jpanuncialman/mal-scraper) and constructs new ones based on a Markov factor.
 
 
 ## Technologies
