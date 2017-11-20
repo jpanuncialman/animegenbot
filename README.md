@@ -17,7 +17,7 @@ The AnimeGenBot Twitter Bot generates anime titles and descriptions, commenting 
 ## Technologies
 
 - Node.js
-- Libraries: Twit, Cheerio for scraper, Cheerio (for https://github.com/jpanuncialman/mal-scraper)
+- Libraries: Twit, Cheerio (for https://github.com/jpanuncialman/mal-scraper)
 
 
 ## Challenges/Future Plans
